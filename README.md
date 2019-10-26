@@ -5,7 +5,7 @@ This is part of Udacity Python foundation course that uses knowledge of Python's
 # How to use
 This repository contains-
 
-Three csv files with data for three cities- chicago.csv, new_york_city.csv, washington.csv.
+Three csv files with data with three cities- chicago.csv, new_york_city.csv, washington.csv.
 One python file written to assess the data in the csv files- bikeshare.py.
 To use the project-
 
