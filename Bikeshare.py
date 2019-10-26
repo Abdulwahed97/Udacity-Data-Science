@@ -91,7 +91,7 @@ def time_stats(df):
         str(df['start_hour'].mode().values[0]))
     )
 
-
+#Printing the time
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -117,6 +117,7 @@ def station_stats(df):
     print("The most common start and end station combo is: {}".format(
         df['combination'].mode().values[0])
     )
+#Printing the time
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
