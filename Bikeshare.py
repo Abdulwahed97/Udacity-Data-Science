@@ -184,7 +184,7 @@ def display(df):
     the user.
     """
 
-    start = 0
+    _start = 0
     end = 5
 
     display_active = input("if you want to see the raw data? Enter yes or no: ").lower()
@@ -192,8 +192,8 @@ def display(df):
     if display_active == 'yes':
         while end <= df.shape[0] - 1:
 
-            print(df.iloc[start:end,:])
-            start += 5
+            print(df.iloc[_start:end,:])
+            _start += 5
             end += 5
 
             display = input("Do you wish to continue?: ").lower()
