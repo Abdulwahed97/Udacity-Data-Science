@@ -2,8 +2,6 @@ import time
 import pandas as pd
 import numpy as np
 
-//added comment
-
 
 def get_filters():
     """
@@ -175,14 +173,14 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
     
-def display(df):
+def display_data(df):
         
     """
     Display contents of the CSV file to the display as requested by
     the user.
     """
 
-    start = 0
+    _start = 0
     end = 5
 
     display_active = input("if you want to see the raw data? Enter yes or no: ").lower()
@@ -190,8 +188,8 @@ def display(df):
     if display_active == 'yes':
         while end <= df.shape[0] - 1:
 
-            print(df.iloc[start:end,:])
-            start += 5
+            print(df.iloc[_start:end,:])
+            _start += 5
             end += 5
 
             display = input("Do you wish to continue?: ").lower()
@@ -201,6 +199,7 @@ def display(df):
 
 
 def main():
+	//?
 
     while 1==1:
         city, month, day = get_filters()
@@ -210,7 +209,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        display(df)
+        display_data(df)
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break

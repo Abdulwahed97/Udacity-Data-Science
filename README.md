@@ -3,6 +3,7 @@ This is part of Udacity Python programming foundation course that uses knowledge
 
 
 # How to use
+This repository contains---
 //comment
 This repository contains alot .
 
