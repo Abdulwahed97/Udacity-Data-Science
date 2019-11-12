@@ -3,10 +3,6 @@ import pandas as pd
 import numpy as np
 
 
-//added comment
-//
-//
-
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
