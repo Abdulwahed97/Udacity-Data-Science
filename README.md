@@ -11,6 +11,6 @@ One python file written to assess the data in the csv files- bikeshare.py.
 To use the project-
 
 Place the bikeshare.py file and all the CSV files in the same folder.
-Run the python file using a suitable python interpreter.
+to Run the python file using a suitable python interpreter.
 
 
